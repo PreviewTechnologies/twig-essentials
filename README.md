@@ -1,7 +1,7 @@
-###Usage
+### Usage
 Few useful extra functionality to work with your [Twig template engine](https://twig.symfony.com/) in your PHP application.
 
-#####Installation
+##### Installation
 `composer require previewtechs/twig-essentials:dev-master`
 
 Add `TwigExtras` extension to your Twig environment
@@ -12,7 +12,7 @@ $twig->addExtension(new \Previewtechs\TwigEssentials\Extensions\TwigExtras());
 
 In your view file, start using extension and other features.
 
-#####Extensions
+##### Extensions
 
 - **date_tzconvert**
   

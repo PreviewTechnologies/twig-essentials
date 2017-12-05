@@ -1,0 +1,21 @@
+{
+    "name": "previewtechs/twig-essentials",
+    "description": "Essential extensions, filters for Twig PHP template engine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaharia Azam",
+            "email": "shaharia.azam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twig/twig": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Previewtechs\\TwigEssentials\\": "src"
+        }
+    }
+}
